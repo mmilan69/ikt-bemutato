@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranger Things – Bemutató</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="fade-in">
+        <label class="title-wrapper">
+            <input type="checkbox" id="flip">
+            <h1>Stranger Things</h1>
+        </label>
+        <p class="tagline">"The Upside Down is closer than you think..."</p>
+    </header>
+
+    <nav class="fade-in">
+        <ul>
+            <li><a href="#story">Történet</a></li>
+            <li><a href="#characters">Szereplők</a></li>
+            <li><a href="#gallery">Galéria</a></li>
+        </ul>
+    </nav>
+
+    <section id="story" class="fade-in">
+        <h2>Történet</h2>
+        <p>
+            A Stranger Things egy 1983-ban játszódó sci-fi horror sorozat, melyben
+            Hawkins, egy látszólag átlagos amerikai kisváros, sötét kormányzati
+            kísérletek központjává válik. A laborban egy titkos program során
+            olyan gyerekeket képeznek ki, akik pszichokinetikus és telepatikus
+            képességekkel bírnak.
+        </p>
+
+        <p id="moreText" class="hidden">
+            A történet akkor indul be igazán, amikor eltűnik egy helyi fiú, 
+            Will Byers. Barátai a keresése közben találkoznak egy különös, 
+            kopasz lánnyal, akit csak Elevennek hívnak. Eleven nemcsak beszélni 
+            nem nagyon tud, de olyan erő rejlik benne, amely egy másik dimenzió,
+            a „Fejjel Lefelé” kapuit is képes megnyitni.
+            <br><br>
+            A „Fejjel Lefelé” egy torz, sötét, párhuzamos valóság, ahol egy 
+            félelmetes ragadozó – a Demogorgon – vadászik. Miközben a város 
+            felnőttjei és gyerekei próbálják megérteni, mi történik, egyre 
+            világosabbá válik: Hawkinsben sosem volt minden rendben, és a kapu
+            kinyílása csak a kezdet.
+        </p>
+
+        <button id="toggleMore">Több mutatása</button>
+    </section>
+
+    <section id="characters" class="fade-in">
+        <h2>Főbb szereplők</h2>
+        <ul class="char-list">
+            <li>Eleven</li>
+            <li>Mike Wheeler</li>
+            <li>Dustin Henderson</li>
+            <li>Lucas Sinclair</li>
+            <li>Will Byers</li>
+            <li>Jim Hopper</li>
+        </ul>
+    </section>
+
+    <section id="gallery" class="fade-in floating">
+        <h2>Galéria</h2>
+        <div class="gallery">
+            <img src="eleven.jpg" alt="Eleven">
+            <img src="demogorgon.jpg" alt="Demogorgon">
+            <img src="vecna.jpg" alt="Vecna">
+        </div>
+    </section>
+
+    <footer>
+        <p>Készítette: Szilágyi Bálint, Tóth Ferenc, Makara Milán</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
